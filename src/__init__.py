@@ -1,0 +1,1 @@
+"""FoodLens AI application package."""

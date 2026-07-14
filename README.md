@@ -9,9 +9,23 @@ A resume-ready multimodal AI project that turns a food image into:
 - Downloadable JSON results
 - Local analysis history
 
+Repository: https://github.com/cakhiltej9001-source/foodlens-multimodal-ai
+
 The default project uses **Gemini 2.5 Flash** for image reasoning and recipe generation, **USDA FoodData Central** for nutrition data, and **Streamlit** for the UI. Both APIs can be used through free access tiers/keys, subject to provider quotas and regional availability.
 
 > Important: This is an educational project. It must not be used for allergy safety decisions, diagnosis, or medical nutrition planning.
+
+## Quick start
+
+```powershell
+cd path\to\foodlens_ai_project
+py -3.11 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+Copy-Item .env.example .env
+# edit .env with your API keys
+.\.venv\Scripts\python.exe -m streamlit run app.py
+```
 
 ## Architecture
 
@@ -240,3 +254,6 @@ See `docs/resume_bullets.md`. Measure accuracy and latency using `docs/evaluatio
 - USDA FoodData Central data are public domain/CC0. Attribute USDA FoodData Central in your project.
 - Keep API keys out of GitHub.
 - Free API quotas and available Gemini models can change.
+
+## Google DRIVE video output 
+ - https://drive.google.com/drive/folders/1KKW-zWFYmqn0s-NFihsmwcoFt_4u3Agi?usp=drive_link

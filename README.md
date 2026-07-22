@@ -1,4 +1,4 @@
-# 🍽️ FoodLens AI
+# 🍽️ FoodLens AI -
 
 A resume-ready multimodal AI project that turns a food image into:
 

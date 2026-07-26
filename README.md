@@ -7,7 +7,8 @@ A resume-ready multimodal AI project that turns a food image into:
 - Nutrition estimates from USDA FoodData Central
 - Personalized recipe ideas
 - Downloadable JSON results
-- Local analysis history
+- Local analysis history.
+
 
 Repository: https://github.com/cakhiltej9001-source/foodlens-multimodal-ai
 
